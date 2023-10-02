@@ -1,0 +1,113 @@
+:root {
+  --font-family: "Crimson Text", sans-serif;
+  --second-family: "Nunito", sans-serif;
+  --mana-blue: #00e8e8;
+	--gold-level: #ead40c;
+	--transparent-outline: rgba(255, 255, 255, 0.4);
+	--dark-outline-transparent: rgba(0, 0, 0, 0.3);
+	--white: #fff;
+	--aghanim-blue: #0bbef6;
+	--green: rgba(7, 239, 156, 0.8);
+	--green-full: #07ef9c;
+	--tree-orange: #f85b03;
+	--strengh-red: #ea0c0c;
+	--empty: rgba(255, 255, 255, 0.08);
+}
+
+/* Reset and base styles  */
+* {
+  cursor: url('./assets/Cursor.png');
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+body{
+  width: 1920px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.582);
+  background-image: url('./assets/preview.jpg');
+}
