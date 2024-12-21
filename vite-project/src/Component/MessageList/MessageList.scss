@@ -1,0 +1,12 @@
+.message-list-container {
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.message-list-content {
+}
+.message-list-list {
+    display: flex;
+    flex-direction: column;
+}

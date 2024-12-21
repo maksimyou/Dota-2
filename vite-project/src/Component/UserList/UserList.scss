@@ -1,0 +1,20 @@
+.user-list-container {
+}
+.user-list-content {
+}
+.user-list-content-users {
+    padding: 0 5px;
+}
+.user-list-content-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(129, 120, 120);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    &:hover {
+        background-color: #716d6d;
+        transition: 0.3s;
+    }
+}

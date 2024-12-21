@@ -19,6 +19,11 @@ interface  Mmr{
     estimate: string
 }
 
+interface Avatar{
+        small: string,
+        medium: string,
+        large: string
+}
 export  interface Playres {
         solo_competitive_rank: string,
         competitive_rank: string,
@@ -39,3 +44,30 @@ export  interface Heroes {
         img:string,
         icon: string,
       }
+
+
+      
+export interface DataReg{
+        username:string,
+        password:string,
+        email:string
+    }
+
+    export interface DataLogin{
+        password:string,
+        email:string
+    }
+
+    export interface UserData {
+        id:number,
+        username: string,
+        firstName: string,
+        lastName: string,
+        role: string,
+        level: number,
+        playstyle: string,
+        about_me: string,
+        avatarURL: Avatar
+    }
+
+    

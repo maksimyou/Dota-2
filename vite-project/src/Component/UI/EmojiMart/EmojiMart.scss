@@ -1,0 +1,12 @@
+.emoji {
+}
+.list-emoji {
+    position: absolute;
+    bottom: 49px;
+}
+.emoji-mart-icon {
+    color: white;
+    &:hover {
+        color: var(--tree-orange);
+    }
+}

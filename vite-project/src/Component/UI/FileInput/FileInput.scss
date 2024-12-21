@@ -1,0 +1,15 @@
+.container-file-input {
+    position: relative;
+
+    input {
+        display: none;
+    }
+}
+.file {
+}
+.file-input-icon {
+    color: white;
+    &:hover {
+        color: var(--tree-orange);
+    }
+}

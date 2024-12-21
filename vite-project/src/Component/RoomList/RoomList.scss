@@ -1,0 +1,26 @@
+.room-list-container {
+}
+.room-list-content {
+    padding: 0 8px;
+}
+.room-list-item {
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    img {
+        width: 44px;
+        border-radius: 50%;
+    }
+    span {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: var(--font-family);
+        color: #fff;
+    }
+}
+
+.room-list-item-active {
+    background-color: #564f4f;
+}

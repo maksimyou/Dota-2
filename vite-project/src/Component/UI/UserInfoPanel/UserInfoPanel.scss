@@ -1,0 +1,30 @@
+.user-info-panel-container {
+}
+.user-info-panel-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.user-info-panel-img {
+    margin: 20px 0;
+    img {
+        width: 64px;
+        border-radius: 50%;
+    }
+}
+.user-info-panel-name-status {
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: #fff;
+}
+.user-info-panel-name {
+    margin-bottom: 10px;
+}
+.user-info-panel-status {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: #cac9c9;
+}

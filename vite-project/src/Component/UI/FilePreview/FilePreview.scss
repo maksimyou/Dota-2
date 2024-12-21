@@ -1,0 +1,24 @@
+.container-file-preview {
+    position: absolute;
+    width: 350px;
+    bottom: 45px;
+    audio {
+        width: 500px;
+    }
+    img {
+        width: 500px;
+    }
+    video {
+        width: 500px;
+    }
+    .btn {
+        position: absolute;
+        color: rgb(142, 136, 136);
+        top: 5px;
+        right: 5px;
+        width: 15px;
+        &:hover {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.general-information-container {
+    padding: 20px;
+    width: 100%;
+    backdrop-filter: blur(30px);
+    background: var(--backround-block);
+}
+.general-information-content {
+}
+.general-information-content label {
+    cursor: default;
+}
+.general-information-title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: #fff;
+    margin-bottom: 20px;
+}
+.general-information-wrap-input {
+}
+.general-information-input {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--font-family);
+    color: #fff;
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 50px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    input {
+        width: 120px;
+        font-family: var(--font-family);
+        padding-left: 8px;
+        color: #edecec;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: #5a575787;
+    }
+    select {
+        width: 120px;
+        font-family: var(--font-family);
+        padding-left: 8px;
+        color: #edecec;
+        height: 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: #5a575787;
+    }
+}
+.general-information-input-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.month-day-year {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

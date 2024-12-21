@@ -1,5 +1,5 @@
 import {Dispatch, FC,useState,SetStateAction, useEffect} from 'react'
-import './Modal.css'
+import './Modal.scss'
 import {Heroes} from '../../../Component/types/type'
 import Loader from '../../Loader/Loader'
 

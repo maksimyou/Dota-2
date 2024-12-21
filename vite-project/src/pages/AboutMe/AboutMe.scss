@@ -1,0 +1,20 @@
+.about-me-container {
+    border-radius: 10px;
+    //padding: 20px;
+    width: 1180px;
+    height: 90vh;
+    //backdrop-filter: blur(10px);
+    //background: var(--dark-outline-transparent);
+}
+.about-me-content {
+}
+.about-me-wrap-flex {
+    display: grid;
+    grid-template-columns: 69% 30%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.about-me-wrap-flex-left {
+}
+.about-me-wrap-flex-right {
+}

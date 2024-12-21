@@ -1,0 +1,27 @@
+.navbar-friends-container {
+    border-radius: 10px;
+    padding: 0 20px 0px 20px;
+    width: 100%;
+    height: 40px;
+    backdrop-filter: blur(10px);
+    background: var(--backround-block);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.navbar-friends-content {
+}
+.navbar-friends-lists {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-friends-link {
+}
+.navbar-friends-link-nav {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    color: #fff;
+}
